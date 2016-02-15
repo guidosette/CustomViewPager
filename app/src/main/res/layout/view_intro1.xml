@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	              xmlns:app="http://schemas.android.com/apk/res-auto"
+	              android:layout_width="match_parent"
+	              android:layout_height="wrap_content"
+	              android:orientation="vertical">
+
+		<ImageView
+			android:id="@+id/backgroundImage"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/imageHeigth"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:paddingLeft="40dp"
+			android:paddingRight="40dp"
+			android:paddingTop="0dp"
+			android:scaleType="fitCenter"
+			android:src="@drawable/intro_1"/>
+
+
+		<TextView
+			android:id="@+id/textTitle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/marginNormal"
+			android:layout_below="@+id/backgroundImage"
+			android:gravity="center"
+			android:paddingLeft="@dimen/paddingTextTutorial"
+			android:paddingRight="@dimen/paddingTextTutorial"
+			android:text="@string/tutorialTitle1"
+			android:textColor="@color/white"
+			android:textSize="@dimen/introTitle" />
+
+
+		<TextView
+			android:id="@+id/text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textTitle"
+			android:layout_marginBottom="@dimen/tutorialMarginBottom"
+			android:layout_marginTop="@dimen/marginNormal"
+			android:gravity="center"
+			android:paddingLeft="@dimen/paddingTextTutorial"
+			android:paddingRight="@dimen/paddingTextTutorial"
+			android:text="@string/tutorialText1"
+			android:textColor="@color/white"
+			android:textSize="@dimen/introText"/>
+
+
+	</LinearLayout>
+</RelativeLayout>

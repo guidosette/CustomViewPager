@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomViewPager</string>
+
+
+    <!--TUTORIAL-->
+    <string name="tutorialTitle1">Lorem Ipsum</string>
+    <string name="tutorialText1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</string>
+    <string name="tutorialTitle2">Lorem Ipsum</string>
+    <string name="tutorialText2">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</string>
+    <string name="tutorialTitle3">Lorem Ipsum</string>
+    <string name="tutorialText3">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</string>
+
+
+
+</resources>

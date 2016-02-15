@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--TUTORIAL-->
+    <dimen name="paddingTextTutorial">20dp</dimen>
+    <dimen name="tutorialMarginBottom">50dp</dimen>
+    <dimen name="marginNormal">12dp</dimen>
+
+    <dimen name="introTitle">18sp</dimen>
+    <dimen name="introText">17sp</dimen>
+
+    <!--BUTTON-->
+    <dimen name="buttonRadiusTutorial">20dp</dimen>
+    <dimen name="buttonRadius">2dp</dimen>
+    <dimen name="buttonPaddingLeftRight">10dp</dimen>
+    <dimen name="buttonPaddingTopBottom">0dp</dimen>
+    <dimen name="button_elevation">4dp</dimen>
+    <dimen name="button_elevation_max">10dp</dimen>
+
+    <!--IMAGE-->
+    <dimen name="imageHeigth">50dp</dimen>
+
+</resources>
